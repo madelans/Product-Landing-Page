@@ -24,12 +24,11 @@ a{
 .container{
     max-width: 1000px;
     width: 100%;
-    margin: 7%  3%;
+    margin:0;
 }
 .container2{
     max-width: 1000px;
     width: 100%;
-    margin: 0 auto;
     position: center;
 }
 .btn{
@@ -122,7 +121,7 @@ nav > ul{
     justify-content: center;
     text-align: center;
     height:200px;
-    margin-top: 50px;   
+    margin-top: 0;   
 }
 #hero{
     width: auto;
@@ -208,12 +207,14 @@ nav > ul{
 }
 
 #sobreNosotros {
-    margin-top: 50px;
+    margin: 0;
     display: flex;
     justify-content: center;
     background-color: #B3ECF2;
-    background-size: 100%;
-    background-clip: border-box;
+    padding: 30% 50% 30% 50%;
+    background-size: cover;
+    
+
 
 }
 #sobreNosotros > iframe{
