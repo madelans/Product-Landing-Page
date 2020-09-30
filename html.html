@@ -1,6 +1,8 @@
 <div id="page-wrapper">
     <header id="header">
         <link rel="stylesheet" type="text/css" href="Css.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet"> 
+
         <div class="logo">
             <img 
             id="header-img"
@@ -9,7 +11,7 @@
         </div>
         <nav id="nav-bar">
             <ul>
-                <li><a class="nav-link" href="#sobreNosotros">About us</a></li>
+                <li><a class="nav-link" href="#sobreNosotros">Sobre Nosotros</a></li>
                 <li><a class="nav-link" href="#caracteristicas">Caracteristicas</a></li>
                 <li><a class="nav-link" href="#precio">Precio</a></li>
             </ul>
@@ -17,41 +19,43 @@
     </header>
     <div class="container"></div>
     <section id="hero">
-        <h2>GridPad</h2>
-        <p>book for your desing</p>
+        <h2 id="title">GridPad</h2>
+        <p id="subtitle"><strong> A book for your desing!</strong></p>
         <form id="form" action="https://www.freecodecamp.com/email-submit">
-         <input
-         name="email"
-         id="email"
-         type="email"
-         placeholder="Enter your email address"
-         required
-         />
-         <input id="submit" type="submit" value="Get Started" class="btn"/>
-        </form>
+            <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email address"
+            required
+            />
+            <input id="submit" type="submit" value="Get Started" class="btn"/>
+           </form>
     </section>
     <div class="container2">
         <section id="sobreNosotros">
             <div class="grid">
                  <div class="desc">
-                     <h2>About Us</h2>
-                     <p>El <strong>GridPad</strong> es una libreta diseñada especialmente para diseñadores. Pensamos en cada detalle a la hora de crearla, desde el formato hasta las texturas, es decir, todo tiene una razón de ser necesaria para 
+                     <h2 id="sobreElGridpad">Sobre el <strong>GRIDPAD</strong></h2>
+                     <p id="parrafo">Hicimos libreta diseñada especialmente para diseñadores. Pensamos en cada detalle a la hora de crearla, desde el formato hasta las texturas, es decir, todo tiene una razón de ser necesaria para 
                     que tus diseños sean extraordinarios!</p>
                  </div>
             </div>
         </section>
         <section id="caracteristicas">
             <div class="grid">
-                <div class="desc">
-                    <h2>Minimalista y elegante.</h2>
+                <div class="desc2">
+                    <img id="imgCaracter" src="AW_e02.jpg" alt="Minimalista">
+                    <h2 class="title">Minimalista y elegante.</h2>
                     <p> Con un diseño de lineas puras, limpio visualmente, negro mate liso que se reduce a su sencillez y simpleza, 
                         dando prioridad a los diseños que se realicen con él, obteniendo el máximo foco en el proceso de trabajo.</p>
 
                 </div>
             </div>
             <div class="grid">
-                <div class="desc">
-                    <h2>Grilla de puntos.</h2>
+                <div class="desc2">
+                    <img id="imgCaracter" src="grilla de puntos.jpg" alt="Grilla de Puntos">
+                    <h2 class="title">Grilla de puntos.</h2>
                     <p>posee una matriz de punto impresa en ambos lados, 
                         esto facilita la orientación de los bocetos y diseños, 
                         tanto en planimetría como en perspectivas, creando así mejores resultados.
@@ -60,24 +64,27 @@
                 </div>
             </div>
             <div class="grid">
-                <div class="desc">
-                    <h2>Hoja especial.</h2>
+                <div class="desc2">
+                    <img id="imgCaracter" src="hoja especial.jpg" alt="Hoja especial">
+                    <h2 class="title">Hoja especial.</h2>
                     <p>Las hojas son de papel chambril 90gr 
                         evitando el sangrado de tinta al dorso 
                         con la mayoria de boligrafo, estilografos, marcadores y otros.</p>
                 </div>
             </div>
             <div class="grid">
-                <div class="desc">
-                    <h2>Cubierta resistente.</h2>
+                <div class="desc2">
+                    <img id="imgCaracter" src="cubierta.jpg" alt="Cubierta">
+                    <h2 class="title">Cubierta resistente.</h2>
                     <p>Hecha de carton negro mate, permitiendo un mejor apoyo a la hora de bocetear 
                         en cualquier lugar y protegiendo tus preciados trabajos.
                     </p>
                 </div>
             </div>
             <div class="grid">
-                <div class="desc">
-                    <h2>Anillado</h2>
+                <div class="desc2">
+                    <img id="imgCaracter" src="anillado.jpg" alt="Anillado">
+                    <h2 class="title">Anillado</h2>
                     <p>Se abre completamente para una maxima flexibildad.</p>
                 </div>
             </div>
@@ -85,32 +92,32 @@
         </section>
         <section id="precio">
             <div class="product" id="Single">
-             <div class="level">Single GridPad</div>
+             <div class="level"> Personal GRIDPAD</div>
              <h2>$400</h2>
              <ol>
-                <li>1 Libreta.</li>
+                <li>1 Libreta</li>
                 <li>Envio gratis Capital Federal</li>
-                <li>Garantia.</li>
+                <li>Garantia de una semana</li>
              </ol>
              <button class="btn">Select</button>
             </div>
             <div class="product" id="Dopple">
-                <div class="level">Par de Gridpad.</div>
+                <div class="level"> GRIDPAD pair</div>
                 <h2>$750</h2>
                 <ol>
                     <li>2 Libretas.</li>
                     <li>Envio gratis Capital Federal.</li>
-                    <li>Garantia.</li>
+                    <li>Garantia de una semana.</li>
                 </ol>
                 <button class="btn">Select</button>
             </div>
             <div class="product" id="More">
-             <div class="level">5 GridPad</div>
+             <div class="level">GRIDPAD business</div>
              <h2>$1500</h2>
              <ol>
-                <li>5 Libretas</li>
+                <li>5 o más Libretas</li>
                 <li>Envio gratis a todo Buenos Aires.</li>
-                <li>Garantia.</li>
+                <li>Garantia de una semana.</li>
                 <li>Descuento del 15% en la próxima compra.</li>
 
              </ol>

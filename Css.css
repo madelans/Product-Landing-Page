@@ -1,13 +1,13 @@
 /**Global element styling**/
 @import
 *{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
 }
 body{
     background-color: #eee;
-    font-family: sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 #page-wrapper{
     position: relative;
@@ -24,12 +24,13 @@ a{
 .container{
     max-width: 1000px;
     width: 100%;
-    margin:0;
+    margin: ; 
 }
 .container2{
-    max-width: 1000px;
-    width: 100%;
+    width: auto;
+    height: 600px;
     position: center;
+    margin: auto;
 }
 .btn{
     padding: 0 20px;
@@ -53,7 +54,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(248, 244, 21);
+    background-color: #F2C029;
     background-clip: border-box;
 }
 @media (max-width: 600px) {
@@ -128,13 +129,24 @@ nav > ul{
     height: 600px;
     position: center;
     background-image: url("fondo1.jpg");
-    margin:;
-    object-fit:;
+    margin:0;
     background-size: cover;
     background-repeat: no-repeat;
     background-clip: border-box;
     background-origin: padding-box;
     background-position: 80% 50%;
+}
+
+.desc2 {
+    background: transparent;
+    height: auto;
+    width: auto; 
+    padding-left: 350px; 
+    padding-right: 350px;
+    line-height: 1.6;
+    font-weight: 450;
+    color: rgb(27, 25, 25);
+    flex-direction: row;
 }
 #hero>h2{
     margin-bottom: 20px;
@@ -165,9 +177,6 @@ nav > ul{
     }
 }
 
-#caracteristicas {
-    margin-top: 30px;
-}
 #features .icon{
     display: flex;
     align-items: center;
@@ -206,13 +215,55 @@ nav > ul{
     }
 }
 
+#title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 95px;
+    font-weight: 350;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+
+}
+#subtitle {
+    background-color: transparent;
+    margin: 0 ;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+
+}
+#sobreElGridpad {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 8px;
+    background: transparent;
+    height: auto;
+    width: auto;
+    margin-left: 500px;
+}
+#parrafo{
+    background: transparent;
+    height: auto;
+    width: auto; 
+    padding: 0px 250px; 
+    line-height: 1.6;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
 #sobreNosotros {
-    margin: 0;
+    width: auto;
+    height: 600px;
+    position: center;
     display: flex;
-    justify-content: center;
-    background-color: #B3ECF2;
-    padding: 30% 50% 30% 50%;
+    background-color: #DBF2D8;
     background-size: cover;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    
     
 
 
@@ -234,11 +285,11 @@ nav > ul{
     text-align: center;
     width: calc(100% / 3);
     margin: 10px;
-    border: 1px solid #000;
+    border: 1px solid #F25244;
     border-radius: 3px;
 }
 .product> .level {
-    background-color: #ddd;
+    background-color: #DBF2D8;
     color: black;
     padding: 15px 0;
     width: 100%;
@@ -259,7 +310,7 @@ nav > ul{
 .product>button{
     border: 0;
     margin: 15px 0;
-    background-color: #f1c40f;
+    background-color: #F2C029;
     font-weight: 400;
 }
 .product > button:hover{
@@ -296,4 +347,11 @@ footer>span {
     font-size: 0.9em;
     color: #444;
 }
+
+#imgcaracter {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
 
